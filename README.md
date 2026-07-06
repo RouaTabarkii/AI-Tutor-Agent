@@ -1,2 +1,14 @@
-# AI-Tutor-Agent
-An AI agent that acts like a tutor for students
+# AI Tutor Agent
+
+An AI-powered tutor that assists students by answering questions, generating assessments, and providing explanations based on course materials.
+
+## Features
+
+- Large Language Model (LLM) : meta-llama/llama-4-scout-17b-16e-instruct
+- Retrieval-Augmented Generation (RAG)
+
+## Objectives
+
+- Answer students general questions about AI.
+- Generate quizzes and exams from uploaded documents.
+- Answer questions using information from specific course documents.
