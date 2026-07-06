@@ -4,7 +4,7 @@ An AI-powered tutor that assists students by answering questions, generating ass
 
 ## Features
 
-- Large Language Model (LLM)
+- Large Language Model (LLM) : meta-llama/llama-4-scout-17b-16e-instruct
 - Retrieval-Augmented Generation (RAG)
 
 ## Objectives
