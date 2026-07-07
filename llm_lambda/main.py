@@ -7,7 +7,8 @@ import os
 print(os.getcwd())
 
 reader = pypdf.PdfReader("../Lettre de Motivation.pdf")
-print(len(reader.pages))
+print(len(reader.pages
+          ))
 
 client = Groq( 
     api_key=os.environ.get("GROQ_API_KEY"),
