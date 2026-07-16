@@ -28,12 +28,23 @@ client = Groq(
 
 user_prmpt = st.text_input("Enter your prompt:")
 
-if user_prmpt:
+if user_prmpt and uploaded_file:
     chat_completion = client.chat.completions.create(
         messages=[
             {
                 "role": "user",
                 "content": user_prmpt+ "\n\n" + doc
+            }
+        ],
+        model="meta-llama/llama-4-scout-17b-16e-instruct",
+    )
+    st.write(chat_completion.choices[0].message.content)
+elif user_prmpt and not uploaded_file:
+    chat_completion = client.chat.completions.create(
+        messages=[
+            {
+                "role": "user",
+                "content": user_prmpt
             }
         ],
         model="meta-llama/llama-4-scout-17b-16e-instruct",
