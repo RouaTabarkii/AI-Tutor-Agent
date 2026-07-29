@@ -8,7 +8,7 @@ import streamlit as st
 
 print(os.getcwd())
 
-MODEL = "llama-3.3-70b-versatile"  # confirmed available on this account via the sidebar model list
+MODEL = "llama-3.3-70b-versatile"  
 
 client = Groq(
     api_key=os.environ.get("GROQ_API_KEY"),
