@@ -42,15 +42,18 @@ An AI-powered tutor that assists students by answering questions, generating ass
 - streamlit run main.py
 
 ## 7. Project sturcture :
+```
 llm_lambda/
-├── qdrant_data
-
-├── uploaded_files
-
+│
+├── qdrant_data/
+│
+├── uploaded_files/
+│
 ├── main.py
-
+│
 ├── .gitignore
-
+│
 ├── README.md
-
+│
 └── requirements.txt
+```
