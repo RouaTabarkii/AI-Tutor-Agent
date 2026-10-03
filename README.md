@@ -51,6 +51,8 @@ llm_lambda/
 │
 ├── main.py
 │
+├── docker-compose.yml
+│
 ├── .gitignore
 │
 ├── README.md
